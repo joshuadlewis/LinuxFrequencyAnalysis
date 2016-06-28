@@ -1,9 +1,7 @@
 # LinuxFrequencyAnalysis
 Incident identification through outlier analysis
 
-########## Setup ##########
-
-## Parallel gather artifacts
+########## Parallel gather artifacts setup ##########
 1. Read documentation that describes why this script was created, what problem it was designed to address, and how it conceptually works (https://www.sans.org/reading-room/whitepapers/detection/incident-identification-outlier-analysis-36740)
 
 2. Open parallelGatherArtifacts.sh, and adjust local working directories and files:
@@ -33,7 +31,7 @@ SCRIPANDTOOLSTAR=analysis.tgz 				            #Default name of tar that contains
 
 8. Ensure that the trusted tar and rm binaries are in the LOCALWORKINGDIR path.  Reference To Do below for future BusyBox use.
 
-########## Frequency analysis ##########
+########## Frequency analysis setup ##########
 1. Read documentation that describes why this script was created, what problem it was designed to address, and how it conceptually works (https://www.sans.org/reading-room/whitepapers/detection/incident-identification-outlier-analysis-36740)
 
 2. Update local binary path variables based on your distribution:
@@ -49,7 +47,7 @@ LOCALUNIQ=/usr/bin/uniq
 LOCALCURRENTRESULTSDIR=/home/sans/Desktop/results/current
 LOCALFREQUENCYDIR=/home/sans/Desktop/results/frequency_analysis
 
-########## Historical analysis ##########
+########## Historical analysis setup ##########
 1. Read documentation that describes why this script was created, what problem it was designed to address, and how it conceptually works (https://www.sans.org/reading-room/whitepapers/detection/incident-identification-outlier-analysis-36740)
 
 2. Update local binary path variable based on your distribution:
